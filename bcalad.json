@@ -1,13 +1,13 @@
 [
   {
     "imagelink": "",
-    "weblink": "whatsapp://send?phone=+917001798145&text=Thank%20You%20For%20Awesome%20App",
-    "Text": "WhatsApp e Feedback Janan"
+    "weblink": "whatsapp://",
+    "Text": "WhatsApp"
   },
   {
     "imagelink": "",
-    "weblink": "whatsapp://send?phone=+917001798145&text=Thank%20You%20For%20Awesome%20App",
-    "Text": "WhatsApp e Feedback Janan"
+    "weblink": "upi://pay?pa=7001798145@ptsbi&pn=NAME&am=10",
+    "Text": "UPI"
   }
   
 ]
