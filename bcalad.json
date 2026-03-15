@@ -1,10 +1,52 @@
 [
-  { "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_KmOuM6UKDfrhpDs9cmoB5kRYWm_2W6XfP0jw-Sz7fUldkBoaiS6g3M&s=10", "weblink": "https://amazon.com", "Text": "পুজোর বাম্পার সেল! স্মার্টওয়াচে ৬০% ছাড় 🛍️" }, 
-  { "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_KmOuM6UKDfrhpDs9cmoB5kRYWm_2W6XfP0jw-Sz7fUldkBoaiS6g3M&s=10", "weblink": "https://amazon.com", "Text": "পুজোর বাম্পার সেল! স্মার্টওয়াচে ৬০% ছাড় 🛍️" }, 
-  { "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_KmOuM6UKDfrhpDs9cmoB5kRYWm_2W6XfP0jw-Sz7fUldkBoaiS6g3M&s=10", "weblink": "https://amazon.com", "Text": "পুজোর বাম্পার সেল! স্মার্টওয়াচে ৬০% ছাড় 🛍️" }, 
-  { "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_KmOuM6UKDfrhpDs9cmoB5kRYWm_2W6XfP0jw-Sz7fUldkBoaiS6g3M&s=10", "weblink": "https://amazon.com", "Text": "পুজোর বাম্পার সেল! স্মার্টওয়াচে ৬০% ছাড় 🛍️" }, 
-  { "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_KmOuM6UKDfrhpDs9cmoB5kRYWm_2W6XfP0jw-Sz7fUldkBoaiS6g3M&s=10", "weblink": "https://amazon.com", "Text": "পুজোর বাম্পার সেল! স্মার্টওয়াচে ৬০% ছাড় 🛍️" }, 
-  { "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_KmOuM6UKDfrhpDs9cmoB5kRYWm_2W6XfP0jw-Sz7fUldkBoaiS6g3M&s=10", "weblink": "https://amazon.com", "Text": "" }, 
-  { "imagelink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs_KmOuM6UKDfrhpDs9cmoB5kRYWm_2W6XfP0jw-Sz7fUldkBoaiS6g3M&s=10", "weblink": "", "Text": "পুজোর বাম্পার সেল! স্মার্টওয়াচে ৬০% ছাড় 🛍️" }, 
-  { "imagelink": "", "weblink": "https://amazon.com", "Text": "পুজোর বাম্পার সেল! স্মার্টওয়াচে ৬০% ছাড় 🛍️" }
+  {
+    "imagelink": "https://picsum.photos/1080/600?nature,landscape,1",
+    "weblink": "https://amazon.com",
+    "Text": "আজকের সেরা ডিল! ইলেকট্রনিক্সে অবিশ্বাস্য ছাড় ⚡"
+  },
+  {
+    "imagelink": "https://picsum.photos/1080/600?nature,landscape,2",
+    "weblink": "https://amazon.com",
+    "Text": "ফ্যাশন উইক সেল: ব্র্যান্ডেড পোশাকে ফ্ল্যাট ৫০% অফ! 👗"
+  },
+  {
+    "imagelink": "https://picsum.photos/1080/600?nature,landscape,3",
+    "weblink": "https://amazon.com",
+    "Text": "নতুন স্মার্টফোন কিনুন এবং জিতে নিন আকর্ষণীয় উপহার 🎁"
+  },
+  {
+    "imagelink": "https://picsum.photos/1080/600?nature,landscape,4",
+    "weblink": "https://amazon.com",
+    "Text": "বইমেলা স্পেশাল: সব বইয়ে ৩০% পর্যন্ত ছাড় 📚"
+  },
+  {
+    "imagelink": "https://picsum.photos/1080/600?nature,landscape,5",
+    "weblink": "https://amazon.com",
+    "Text": "ঘর সাজান নতুন রূপে! হোম অ্যাপ্লায়েন্সে বাম্পার অফার 🏠"
+  },
+  {
+    "imagelink": "https://picsum.photos/1080/600?nature,landscape,6",
+    "weblink": "https://amazon.com",
+    "Text": "ফিটনেস ডিল: জিম ইক্যুইপমেন্টে বিশেষ ছাড় 💪"
+  },
+  {
+    "imagelink": "https://picsum.photos/1080/600?nature,landscape,7",
+    "weblink": "https://amazon.com",
+    "Text": "গ্রোসারি কিনুন নিশ্চিন্তে, পান ফ্রী হোম ডেলিভারি 🛒"
+  },
+  {
+    "imagelink": "https://picsum.photos/1080/600?nature,landscape,8",
+    "weblink": "https://amazon.com",
+    "Text": "ল্যাপটপ এক্সচেঞ্জ অফার: পুরোনো দিন, নতুন নিন 💻"
+  },
+  {
+    "imagelink": "https://picsum.photos/1080/600?nature,landscape,9",
+    "weblink": "https://amazon.com",
+    "Text": "বিউটি প্রোডাক্টে বাই ১ গেট ১ ফ্রী! লিমিটেড অফার 💄"
+  },
+  {
+    "imagelink": "https://picsum.photos/1080/600?nature,landscape,10",
+    "weblink": "https://amazon.com",
+    "Text": "শুধুমাত্র প্রাইম মেম্বারদের জন্য এক্সক্লুসিভ ডিল 🔥"
+  }
 ]
