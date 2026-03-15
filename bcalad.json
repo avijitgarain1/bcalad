@@ -1,13 +1,8 @@
 [
   {
     "imagelink": "",
-    "weblink": "whatsapp://",
-    "Text": "WhatsApp"
-  },
-  {
-    "imagelink": "",
-    "weblink": "upi://pay?pa=7001798145@ptsbi&pn=NAME&am=10",
-    "Text": "UPI"
+    "weblink": "whatsapp://send?phone=&text=HELLO",
+    "Text": "WhatsApp Open"
   }
   
 ]
