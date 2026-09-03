@@ -1,0 +1,55 @@
+﻿name: Auto Push Notifications on JSON Update
+
+on:
+  push:
+    paths:
+      - 'notifications.json'
+  workflow_dispatch:
+
+jobs:
+  push_notification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Send Push via FCM
+        run: |
+          python -c "
+          import json, urllib.request
+
+          SERVER_KEY = 'AAAAch1TkFQ:APA91bGLgppVy4S_Okm8R52FbenfEOm1Y3iNkCW61AXOV1gv-ynFnWdfJpRnTCyX87u1cANvRqOtQ16cA3YGms5MT3ZrdRRTV7T7_yXcF2yrlgSAhKQD7iDmHKjIeQssX6lu5mkLIwbY'
+
+          with open('notifications.json', 'r', encoding='utf-8-sig') as f:
+              data = json.load(f)
+
+          items = data if isinstance(data, list) else data.get('notifications', [])
+          if items:
+              latest = items[0]
+              title = latest.get('title', 'বিশেষ বার্তা')
+              body = latest.get('message', latest.get('body', ''))
+              image_url = latest.get('image_url', '')
+              target_url = latest.get('target_url', '')
+
+              payload = {
+                  'to': '/topics/all',
+                  'priority': 'high',
+                  'data': {
+                      'title': title,
+                      'body': body,
+                      'image_url': image_url,
+                      'target_url': target_url
+                  }
+              }
+
+              req = urllib.request.Request(
+                  'https://fcm.googleapis.com/fcm/send',
+                  data=json.dumps(payload).encode('utf-8'),
+                  headers={
+                      'Authorization': 'key=' + SERVER_KEY,
+                      'Content-Type': 'application/json'
+                  }
+              )
+              resp = urllib.request.urlopen(req)
+              print('FCM Response:', resp.status, resp.read().decode('utf-8'))
+          "
