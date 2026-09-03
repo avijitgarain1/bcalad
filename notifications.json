@@ -1,0 +1,45 @@
+﻿[
+  {
+    "id": "instant_test_1",
+    "type": "instant",
+    "title": "শুভ নববর্ষ ও স্বাগতম!",
+    "message": "ক্যালেন্ডার নোটিফিকেশন সিস্টেম সফলভাবে চালু হয়েছে।",
+    "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    "target_url": ""
+  },
+  {
+    "id": "vaddro_2",
+    "date_rule": "b02/5",
+    "time": "08:00:00",
+    "title": "ভাদ্রের ২ তারিখ",
+    "message": "আজ ভাদ্র মাসের ২ তারিখ।"
+  },
+  {
+    "id": "choitra_sankranti",
+    "date_rule": "bl/12",
+    "time": "08:00:00",
+    "title": "চৈত্র সংক্রান্তি",
+    "message": "আজ ১৪৩২ বঙ্গাব্দের শেষ দিন (চৈত্র সংক্রান্তি)।"
+  },
+  {
+    "id": "pohela_boishakh",
+    "date_rule": "bf/01",
+    "time": "06:00:00",
+    "title": "শুভ নববর্ষ!",
+    "message": "আজ পহেলা বৈশাখ। নতুন বছরের শুভেচ্ছা।"
+  },
+  {
+    "id": "feb_last_reminder",
+    "date_rule": "l-3/02",
+    "time": "09:00:00",
+    "title": "ফেব্রুয়ারি শেষ হতে ৩ দিন বাকি",
+    "message": "চলতি ফেব্রুয়ারি মাস শেষ হতে চলেছে।"
+  },
+  {
+    "id": "christmas",
+    "date_rule": "25/12",
+    "time": "00:00:00",
+    "title": "Merry Christmas!",
+    "message": "সবাইকে বড়দিনের শুভেচ্ছা।"
+  }
+]
