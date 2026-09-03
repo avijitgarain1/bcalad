@@ -2,7 +2,7 @@
   {
     "id": "instant_test_2",
     "type": "instant",
-    "title": "শুভ নববর্ষ ও স্বাগতম!",
+    "title": "ক্যালেন্ডার নোটিফিকেশন",
     "message": "ক্যালেন্ডার নোটিফিকেশন সিস্টেম সফলভাবে চালু হয়েছে।",
     "image_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
     "target_url": ""
